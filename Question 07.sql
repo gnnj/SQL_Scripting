@@ -1,4 +1,7 @@
 -- Question 7a
+SELECT title
+FROM sakila.film
+WHERE title LIKE 'K%' OR title LIKE 'Q%';
 
 -- Question 7b
 
